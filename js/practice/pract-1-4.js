@@ -1,3 +1,4 @@
+'use strict'
 // const stringArr = ['Joo', 'Doo', 'Goo'];
 // const newStringArr = new Array();
 

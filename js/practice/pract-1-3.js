@@ -1,3 +1,4 @@
+'use strict'
 // const str = "Some string Some Some erer to to";
 // const arr = ["Some", "to"];
 

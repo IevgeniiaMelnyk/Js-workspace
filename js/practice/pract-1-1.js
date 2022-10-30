@@ -1,3 +1,4 @@
+'use strict'
 // const clients = ['Mango', 'Ajax', 'Poly', 'Kiwi', 'Molly'];
 
 // function userName(name) {

@@ -1,3 +1,6 @@
+'use strict'
+// console.log('Урок 1-2 Переменные и типы, Ветвления и циклы')
+
 // const age = 10;
 // const totalPrice = 200.74;
 // const userName = 'Chelsy';
@@ -575,9 +578,45 @@
 //     for (let i = start; i <= end; i += 1) {
 //         if (i % 2 === 0) {
 //             array.push(i);
-//         }  
+//         }
         
 //     }
 //      return array;
 // }
 // console.table(getEvenNumbers(10, 25));
+
+
+// Перевод псевдомоссивы в массив
+// const fn = function () {
+//     console.log(arguments);
+
+//     const args = Array.from(arguments);
+
+//     console.log(args);
+// }
+
+// const fn = function (...args) {
+//     console.log(args);
+// }
+
+// fn(1, 2, 3);
+// fn(1, 2, 3, 4, 5);
+// fn(1, 2, 3, 4, 5, 6, 7, 8);
+
+// const fn = function (a, b, c, ...args) {
+//     console.log(`${a} ${b} ${c}`);
+//     console.log(args);
+// }
+
+// fn('Hi', 1, 2, 3);
+// fn('Yo', 1, 2, 3, 4, 5);
+// fn('Ooo', 1, 2, 3, 4, 5, 6, 7, 8);
+
+// const fn = function (a, ...args) {
+//     console.log(`${a}`);
+//     console.log(args);
+// }
+
+// fn('Hi', 1, 2, 3);
+// fn('Yo', 1, 2, 3, 4, 5);
+// fn('Ooo', 1, 2, 3, 4, 5, 6, 7, 8);
